@@ -1,0 +1,13 @@
+#logo-header{
+    width: 132px !important;
+}
+#header{
+    border-bottom: #f3995b 5px solid !important; 
+}
+
+.header-item{
+    font-weight: 400 !important;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+}
