@@ -11,3 +11,24 @@
     text-align: inherit;
     white-space: nowrap;
 }
+
+.primary-btn, .header-btn{
+	background-color: #f3995b !important;
+	background-image: none !important	;
+}
+
+#weoffer{
+	margin-bottom: 125px;
+}
+
+.p1-gradient-bg, .primary-btn, .header-btn, .testimonial-area .overlay-bg,  .about-right .overlay-bg {
+    background-image: -moz-linear-gradient(0deg, #3a4e48 0%, #f3995b 130%);
+    background-image: -webkit-linear-gradient(0deg, #3a4e48 0%, #f3995b 130%);
+    background-image: -ms-linear-gradient(0deg, #3a4e48 0%, #f3995b 130%);
+}
+
+.single-service:hover{
+	background-image: -moz-linear-gradient(0deg, #f3995b 0%, #f3995b 180%);
+    background-image: -webkit-linear-gradient(0deg, #f3995b 0%, #f3995b 180%);
+    background-image: -ms-linear-gradient(0deg, #f3995b 0%, #f3995b 180%);	
+}
