@@ -14,7 +14,7 @@
 
 .primary-btn, .header-btn{
 	background-color: #f3995b !important;
-	background-image: none !important	;
+	background-image: none !important;
 }
 
 #weoffer{
@@ -31,4 +31,18 @@
 	background-image: -moz-linear-gradient(0deg, #f3995b 0%, #f3995b 180%);
     background-image: -webkit-linear-gradient(0deg, #f3995b 0%, #f3995b 180%);
     background-image: -ms-linear-gradient(0deg, #f3995b 0%, #f3995b 180%);	
+}
+
+.single-fact h1{
+    background: -moz-linear-gradient(0deg, #f3995b 0%, #f3995b 100%);
+    background: -webkit-linear-gradient(0deg, #f3995b 0%, #f3995b 100%);
+    background-clip: border-box;
+    background: -ms-linear-gradient(0deg, #f3995b 0%, #f3995b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.single-fact h1 {
+    font-weight: 500 !important;
+    font-size: 40px !important;
 }
