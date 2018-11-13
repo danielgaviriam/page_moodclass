@@ -59,3 +59,22 @@
 .section-gap {
     padding: 100px 0px !important;
 }
+.generic-banner .height {
+    height: 150px !important;
+}
+
+.sample-text {
+    font-size: 16px !important;
+}
+
+.sample-text-area {
+    background: #fff;
+    padding: 50px 0 70px 0 !important;
+}
+
+/* Media Queries*/
+@media screen and (max-width: 770px) {
+    .banner-area {
+        background: unset !important;
+    }
+  }
